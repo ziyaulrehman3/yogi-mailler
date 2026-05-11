@@ -84,6 +84,19 @@ Best Regards,
 Ziya Ul Rehman
 +91-8383965569
 LinkedIn: https://www.linkedin.com/in/ziya-ul-rehman`,
+
+"MextJS": `Hi, I’m Ziya Ul Rehman, a Next.js Developer with hands-on experience in building modern, scalable, and high-performance web applications. I have worked on projects including EdTech platforms, AI chatbot systems, admin panels, real-time applications, and full-stack web solutions.
+
+I work with Next.js, React.js, JavaScript, Tailwind CSS, REST APIs, Redux Toolkit, and backend integrations to develop responsive and efficient applications with optimized performance and smooth user experience. I also have experience working with authentication systems, API integration, and deployment platforms.
+
+I am open to new opportunities and would be glad to discuss how I can contribute to your team.
+
+Please find my resume attached. I would be happy to discuss this opportunity further.
+
+Best Regards,
+Ziya Ul Rehman
++91-8383965569
+LinkedIn: https://www.linkedin.com/in/ziya-ul-rehman`,
 };
 
 /** Normalizes spacing/case so JSON input matches templates reliably. */
