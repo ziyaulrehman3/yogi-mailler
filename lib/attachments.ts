@@ -31,9 +31,9 @@ export function buildAttachmentsFromEnv(): Attachment[] {
   const resolved = resolveResumeAbsolute(root);
 
   if (!resolved) {
-    const hint = process.env.MAIL_ATTACHMENT_RESUME?.trim()
-      ? process.env.MAIL_ATTACHMENT_RESUME
-      : DEFAULT_RESUME_CANDIDATES.join(", ");
+    const hint = "attachments/Ziya_Ul_Rehman_Resume.pdf".trim()
+      ? "attachments/Ziya_Ul_Rehman_Resume.pdf"
+      : "attachments/Ziya_Ul_Rehman_Resume.pdf";
     console.warn(
       `[mail] Resume attachment not found. Checked: ${hint} (project root: ${root})`,
     );
