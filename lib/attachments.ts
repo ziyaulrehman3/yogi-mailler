@@ -4,8 +4,8 @@ import type { Attachment } from "nodemailer/lib/mailer";
 
 /** Tried in order when MAIL_ATTACHMENT_RESUME is unset. */
 const DEFAULT_RESUME_CANDIDATES = [
-  "attachments/Ziya_Ul_Rehman_Resume.pdf",
-  "attachments/ziya ul rehman resume.pdf",
+  "attachments/yogita_mishra_resume.pdf",
+  "attachments/yogita mishra resume.pdf",
 ];
 
 function resolveResumeAbsolute(root: string): string | null {
@@ -31,11 +31,11 @@ export function buildAttachmentsFromEnv(): Attachment[] {
   const resolved = resolveResumeAbsolute(root);
 
   if (!resolved) {
-    const hint = "attachments/Ziya_Ul_Rehman_Resume.pdf".trim()
-      ? "attachments/Ziya_Ul_Rehman_Resume.pdf"
-      : "attachments/Ziya_Ul_Rehman_Resume.pdf";
+    const hint = "attachments/yogita_mishra_resume.pdf".trim()
+      ? "attachments/yogita_mishra_resume.pdf"
+      : "attachments/yogita_mishra_resume.pdf";
     console.warn(
-      `[mail] Resume attachment not found. Checked: ${hint} (project root: ${root})`,
+      `[mail] Resume attachment not found. Checked: ${hint} (project root: ${root})`
     );
     return [];
   }

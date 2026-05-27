@@ -6,7 +6,7 @@ export function getTransporter() {
 
   if (!user || !pass) {
     throw new Error(
-      "Missing GMAIL_USER or GMAIL_APP_PASSWORD in environment variables.",
+      "Missing GMAIL_USER or GMAIL_APP_PASSWORD in environment variables."
     );
   }
 
@@ -19,5 +19,5 @@ export function getTransporter() {
 /** Subject line: `{position} Developer Application` (uses the same string as JSON `position`). */
 export function defaultSubjectLine(position: string): string {
   const p = position.trim();
-  return `${p} Developer Application`;
+  return `${p} Engineer Application`;
 }
