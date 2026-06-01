@@ -3,7 +3,7 @@
  * Replace example paragraphs with your final templates.
  */
 export const EMAIL_BODIES_BY_POSITION: Record<string, string> = {
-  QA: `Hi,\nI am writing to express my interest in the QA position at your company. With experience in manual testing, writing detailed test cases, executing regression and functional testing, and identifying edge cases, I ensure high-quality product delivery. I am detail-oriented, proactive, and committed to improving user experience through thorough testing.\nI would welcome the opportunity to contribute to your team and add value through my testing expertise.\nThank you for your time and consideration.
+  QA: `Hi,\nI am writing to express my interest in the QA position at your company. With experience in manual testing, writing detailed test cases, executing regression and functional testing, and identifying edge cases, I ensure high-quality product delivery. I am detail-oriented, proactive, and committed to improving user experience through thorough testing.\nI would welcome the opportunity to contribute to your team and add value through my testing expertise.\n\nThank you for your time and consideration.
 
 Best Regards,
 Yogita Mishra
